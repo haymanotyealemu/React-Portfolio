@@ -1,25 +1,8 @@
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    font-family: 'PT Sans', sans-serif;
-  }
+body{
+  background-image: url("https://drive.google.com/uc?export=view&id=1M-cqjzR0YptXhzOG8rEERosbXcKyuWq7");
+  background-repeat: no-repeat;
+  background-size: cover;
   
-  .home,
-  .projects,
-  .resume
-  {
-    display: flex;
-    height: 90vh;
-    align-items: center;
-    justify-content: center;
-    font-size: 3rem;
-  }
-  
-  .home {
-    background-image: url('/images/ramger-4df6c1b6.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
- 
-  }
+  min-height: 100vh;
+}
   

@@ -1,0 +1,10 @@
+.card{
+    display: flex;
+    background-color: red;
+}
+.fa-github {
+    color:black;
+}
+hr{
+    line-height: 1px, solid;
+}
