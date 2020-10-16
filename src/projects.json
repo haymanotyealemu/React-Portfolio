@@ -1,0 +1,45 @@
+[
+  {
+    "id": 1,
+    "name": "Weather-Dashboard",
+    "image": "../../assets/images/image-1.PNG",
+    "Deployed": "https://haymanotyealemu.github.io/Weather-Dashboard/",
+    "Git-Repo": "https://github.com/haymanotyealemu/Weather-Dashboard.git"
+  },
+  {
+    "id": 2,
+    "name": "Project One - speech-text",
+    "image": "../../assets/images/image-2.png",
+    "Deployed": "https://johannsp.github.io/CWRUBC-Project01/",
+    "Git-Repo": "https://github.com/haymanotyealemu/CWRUBC-Project01.git"
+  },
+  {
+    "id": 3,
+    "name": "Project Two - Build & Flex!",
+    "image": "https://drive.google.com/uc?export=view&id=1fTN2U3Ekl9wSudEKUzAFqHVSW3VjnzWk",
+    "Deployed": "https://projecttwo-cwru.herokuapp.com/",
+    "Git-Repo": "https://github.com/haymanotyealemu/ProjectTwo.git"
+  },
+  {
+    "id": 4,
+    "name": "Eat Da Burger!",
+    "image": "https://drive.google.com/uc?export=view&id=1Q6xjv8ak_wvkw4yB4PJa8NaMHfXLZEvE",
+    "Deployed": "https://young-retreat-31053.herokuapp.com/",
+    "Git-Repo": "https://github.com/haymanotyealemu/Burger.git"
+  },
+  {
+    "id": 5,
+    "name": "Code Quiz",
+    "image": "../../assets/images/code-quiz.PNG",
+    "Deployed": "https://haymanotyealemu.github.io/Code-Quiz/",
+    "Git-Repo": "https://github.com/haymanotyealemu/Code-Quiz.git"
+  },
+  {
+    "id": 6,
+    "name": "Work-day-Scheduler",
+    "image": "../../assets/images/work-scheduler.PNG",
+    "Deployed": "https://haymanotyealemu.github.io/Work-day-Scheduler/",
+    "Git-Repo": "https://github.com/haymanotyealemu/Work-day-Scheduler.git"
+  }
+  
+]
