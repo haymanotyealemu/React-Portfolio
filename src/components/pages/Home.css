@@ -5,6 +5,13 @@
 .fa-github {
     color:black;
 }
-hr{
-    line-height: 1px, solid;
+.home-container{
+    display: flex;
 }
+@media screen and (max-width: 600px) {
+    .home {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }

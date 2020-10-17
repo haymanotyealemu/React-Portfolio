@@ -4,13 +4,13 @@ import "./Home.css";
 
 function Home(){
     return(
-      <div className="home-container">
-        <Container>
-          <Card className=" mx-auto card p-3 mt-2" style={{ width: '20rem' }}>
-            <Card.Title className="text-center">About Me</Card.Title>
+      <div>
+        <Container className="home">
+          <Card className=" mx-auto card p-3 mt-2 mb-5" style={{ width: '30rem'}}>
+            <Card.Title className="text-center ">About Me</Card.Title>
             <hr/>
-            <Card.Img variant="top" src="https://drive.google.com/uc?export=view&id=1s-RFiotblylLkNjFTaHScHiPw9oHqOdq" />
-            <Card.Body>
+            <Card.Img className="rounded mx-auto thumbnail" style={{width:'20rem' }}variant="top" src="https://drive.google.com/uc?export=view&id=1s-RFiotblylLkNjFTaHScHiPw9oHqOdq" />
+            <Card.Body className="text-center">
               <Card.Title className="text-center">Welcome!</Card.Title>
               <Card.Text>
                 Hi, My name is Haymanot Wolde, I am a full stack web developer certified from Case Western Reserve University Coding Bootcamp Cleveland, Ohio! I have a Bsc in Construction And Technology Management from Addis Ababa University, Ethiopia.
