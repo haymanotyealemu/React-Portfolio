@@ -1,13 +1,8 @@
-.card{
-    display: flex;
-    background-color: red;
-}
+
 .fa-github {
     color:black;
 }
-.home-container{
-    display: flex;
-}
+
 @media screen and (max-width: 600px) {
     .home {
       width: 100%;
