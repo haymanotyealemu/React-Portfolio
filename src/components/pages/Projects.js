@@ -14,8 +14,8 @@ function Projects() {
                 <Card.Title className="text-center">Projects</Card.Title>
                 <hr/>
                 <Row>
-                  <Col md={4}>
-                    <Card className="weather" style={{padding:'16px', margin:'5px'}}>
+                  <Col md={4} className="col">
+                    <Card  style={{padding:'16px', margin:'5px'}}>
                         <Card.Text className="text-center ">Weather-Dashboard</Card.Text>
                         <Card.Img  style={{height:'10rem'}}variant="top" src="https://drive.google.com/uc?export=view&id=1xnljQRjK2jM60dgG2INwlBX5W7z55Uzd" />
                         <Card.Link className="p-2">
