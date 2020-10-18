@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Switch} from "react-router-dom";
+import { BrowserRouter,  Route, Switch} from "react-router-dom";
 import Header from "./components/Header";
 import Home from "./components/pages/Home";
 import Resume from "./components/pages/Resume";
@@ -9,7 +9,7 @@ import "./App.css";
 
 function App() {
   return (
-    <Router>
+    <BrowserRouter basename={"/react-portfolio"}>
       <div>
         <Header />
         <Switch>
@@ -20,7 +20,7 @@ function App() {
         </Switch>
         <Footer />
       </div>
-    </Router>
+    </BrowserRouter>
     
   );
 }
