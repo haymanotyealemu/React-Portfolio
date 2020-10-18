@@ -1,8 +1,7 @@
 .navbar {
     background: #004778;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    /* justify-content: center; */
     height: 70px;
     font-size: 1.2rem;
     position: sticky;
@@ -12,7 +11,7 @@
   
   .navbar-container {
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
     
     height: 70px;
     max-width: 1500px;
@@ -49,7 +48,7 @@
   .nav-links {
     color: #fff;
     display: flex;
-    align-items: center;
+    /* align-items: center; */
     text-decoration: none;
     padding: 0.5rem 1rem;
     
