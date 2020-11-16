@@ -1,44 +1,42 @@
 import React from "react";
-import { Card, Container} from "react-bootstrap";
+import Container from "../../components/Container";
+import Row from "../../components/Row";
+import Col from "../../components/Col";
 import "./Home.css";
+import { Link } from "react-router-dom";
 
 function Home(){
     return(
-      <div>
+      <div className="main-home">
         <Container className="home">
-          <Card className=" mx-auto card p-3 mt-2 mb-5" style={{ width: '30rem'}}>
-            <Card.Title className="text-center ">About Me</Card.Title>
-            <hr/>
-            <Card.Img className="rounded mx-auto thumbnail" style={{width:'20rem' }}variant="top" src="https://drive.google.com/uc?export=view&id=1s-RFiotblylLkNjFTaHScHiPw9oHqOdq" />
-            <Card.Body className="text-center">
-              <Card.Title className="text-center">Welcome!</Card.Title>
-              <Card.Text>
-                Hi, My name is Haymanot Wolde, I am a full stack web developer certified from Case Western Reserve University Coding Bootcamp Cleveland, Ohio! I have a Bsc in Construction And Technology Management from Addis Ababa University, Ethiopia.
-              </Card.Text>
-              <br/>
-              <Card.Text>
-                I have a hands on skills in JavaScript, Express.js, Node.js, MySQL, MongoDB, CSS, HTML5, Bootstrap and Bulma Frameworks. You can find my contact details here:
-              </Card.Text>
-              <Card.Text>
-                GitHub:<Card.Link href="https://github.com/haymanotyealemu"  target="_blank"><i className="fab fa-github fa-2x"></i></Card.Link>
+          <Row className="aboutme">
+            <Col size="md-3">
+            </Col>
+            <Col size="md-6" className="text-center">
+              <h3 className="text-center">About Me</h3>
+              <hr/>
+              <img src="https://drive.google.com/uc?export=view&id=1s-RFiotblylLkNjFTaHScHiPw9oHqOdq" alt=""className="card-img-top rounded mx-auto thumbnail  d-block" style={{width:250, height:250}}></img>
+              <div className="card-body text-center">
+                <h5 className="card-title">Welcome!</h5>
+                <p className="card-text">Hi, My name is Haymanot Wolde, I am a full stack web developer certified from Case Western Reserve University Coding Bootcamp Cleveland, Ohio! I have a Bsc in Construction And Technology Management from Addis Ababa University, Ethiopia.</p>
+                <br/>
+                <p className="card-text">
+                I have a hands on skills in JavaScript, Express.js, Node.js, MySQL, MongoDB, React.js, Handlebars, CSS, HTML5, Bootstrap and Bulma Frameworks. You can find my contact details here:
+                </p>
+                <p className="card-text">GitHub:<Link to="https://github.com/haymanotyealemu"><i className="fab fa-github fa-2x"></i></Link></p>
                 <hr/>
-              </Card.Text>
-              <Card.Text>
-                LinkedIn:<Card.Link href="https://www.linkedin.com/in/haymanot-wolde-4ab3771a9/"  target="_blank"><i className="fab fa-linkedin fa-2x"></i></Card.Link>
+                <p className="card-text">LinkedIn:<Link to="https://www.linkedin.com/in/haymanot-wolde-4ab3771a9/"><i className="fab fa-linkedin fa-2x"></i></Link></p>
+
                 <hr/>
-              </Card.Text>
-              <Card.Text>
-                Email:<Card.Link href="#">haymanotalemu21@gmail.com</Card.Link>
+                <p className="card-text">Email:<Link to="#">haymanotalemu21@gmail.com</Link></p>
                 <hr/>
-              </Card.Text>
-              <Card.Text>
-                Phone:+1 614-927-94-99
-                <hr/>
-              </Card.Text>
-            </Card.Body>
-          </Card>
+                <p className="card-text">Phone:<i classname="far fa-phone-square-alt fa-2x"></i>+1 614-927-94-99</p>
+              </div>
+            </Col>
+            <Col size="md-3"></Col>
+          </Row>
         </Container>
       </div>
-    )
+    );
 }
 export default Home;

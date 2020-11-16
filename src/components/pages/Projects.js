@@ -1,102 +1,38 @@
-import React from "react";
-import { Card, Container, Row, Col, Button } from "react-bootstrap";
+import React, { Component } from "react";
+import Wrapper from "../Wrapper";
+import ProjectCard from "../ProjectCard";
+import projects from "../../projects.json";
 import "./Projects.css";
-function Projects() {
-  return (
-    <div>
-      <Container >
-        <Row>
-          <Col md={1}> 
-          </Col>
-          <Col md={10}>
-            <Card className="projects-set p-2">
-              <Card.Body>
-                <Card.Title className="text-center">Projects</Card.Title>
-                <hr/>
-                <Row>
-                  <Col md={4} className="col">
-                    <Card  style={{padding:'16px', margin:'5px'}}>
-                        <Card.Text className="text-center ">Weather-Dashboard</Card.Text>
-                        <Card.Img  style={{height:'10rem'}}variant="top" src="https://drive.google.com/uc?export=view&id=1xnljQRjK2jM60dgG2INwlBX5W7z55Uzd" />
-                        <Card.Link className="p-2">
-                          <Button href="https://haymanotyealemu.github.io/Weather-Dashboard/" variant="info"> Deployed</Button>{' '}
-                          <Button href="https://github.com/haymanotyealemu/Weather-Dashboard.git" variant="info">
-                              Git-Repo
-                          </Button>
-                        </Card.Link>
-                    </Card>
-                  </Col>
-                  <Col md={4}>
-                    <Card style={{padding:'16px', margin:'5px'}}>
-                        <Card.Text className="text-center ">Project One - speech-text</Card.Text>
-                        <Card.Img style={{height:'10rem'}} variant="top" src="https://drive.google.com/uc?export=view&id=1W7NWmiMLJP8yOhlwtFBfotZSsa9NVGr5" />
-                        <Card.Link  className="p-2">
-                          <Button href="https://johannsp.github.io/CWRUBC-Project01/" variant="info"> Deployed</Button>{' '}
-                          <Button href="https://github.com/haymanotyealemu/CWRUBC-Project01.git" variant="info">
-                              Git-Repo
-                          </Button>
-                        </Card.Link>
-                      </Card>
-                  </Col>
-                  <Col md={4}>
-                    <Card style={{padding:'16px', margin:'5px'}}>
-                        <Card.Text className="text-center">Project Two - Build & Flex!</Card.Text>
-                        <Card.Img style={{height:'10rem'}} variant="top" src="https://drive.google.com/uc?export=view&id=1fTN2U3Ekl9wSudEKUzAFqHVSW3VjnzWk" />
-                        <Card.Link className="p-2">
-                          <Button href="https://projecttwo-cwru.herokuapp.com/" variant="info"> Deployed</Button>{' '}
-                          <Button href="https://github.com/haymanotyealemu/ProjectTwo.git" variant="info">
-                              Git-Repo
-                          </Button>
-                        </Card.Link>
-                      </Card>
-                  </Col>
-                </Row>
-                <Row>
-                  <Col md={4}>
-                    <Card style={{padding:'16px', margin:'5px'}}>
-                        <Card.Text className="text-center">Eat Da Burger!</Card.Text>
-                        <Card.Img style={{height:'10rem'}} variant="top" src="https://drive.google.com/uc?export=view&id=1Q6xjv8ak_wvkw4yB4PJa8NaMHfXLZEvE" />
-                        <Card.Link className="p-2">
-                          <Button href="https://young-retreat-31053.herokuapp.com/" variant="info"> Deployed</Button>{' '}
-                          <Button href="https://github.com/haymanotyealemu/Burger.git" variant="info">
-                              Git-Repo
-                          </Button>
-                        </Card.Link>
-                      </Card>
-                  </Col>
-                  <Col md={4}>
-                    <Card style={{padding:'16px', margin:'5px'}}>
-                        <Card.Text className="text-center">Code Quiz</Card.Text>
-                        <Card.Img style={{height:'10rem'}} variant="top" src="https://drive.google.com/uc?export=view&id=1fJLCUSHwcMgdO6zN3wjZee34S6POXUQx" />
-                        <Card.Link className="p-2">
-                          <Button href="https://github.com/haymanotyealemu/Code-Quiz.git" variant="info"> Deployed</Button>{' '}
-                          <Button href="" variant="info">
-                              Git-Repo
-                          </Button>
-                        </Card.Link>
-                      </Card>
-                  </Col>
-                  <Col md={4}>
-                    <Card style={{padding:'16px', margin:'5px'}}>
-                        <Card.Text className="text-center">Work-day-Scheduler</Card.Text>
-                        <Card.Img style={{height:'10rem'}} variant="top" src="https://drive.google.com/uc?export=view&id=1c_6oJ8248oAlbgi9bOg7fvmtvJ9IkvZZ" />
-                        <Card.Link className="p-2">
-                          <Button href="https://haymanotyealemu.github.io/Work-day-Scheduler/" variant="info"> Deployed</Button>{' '}
-                          <Button href="https://github.com/haymanotyealemu/Work-day-Scheduler.git" variant="info">
-                              Git-Repo
-                          </Button>
-                        </Card.Link>
-                      </Card>
-                  </Col>
-                </Row>
-              </Card.Body>
-            </Card>
-          </Col>
-        </Row>
+class Projects extends Component  {
+  state = {
+    projects
+  };
+
+  render (){
+    return(
+      <div className="main">
+        <h2 className="text-center">Projects</h2> 
+        <hr/>     
+        <Wrapper>
+        {this.state.projects.map(project => (
+          <ProjectCard
   
-      </Container>
+            id={project.id}
+            key={project.id}
+            title={project.title}
+            image={project.image}
+            Deployed={project.Deployed}
+            GitRepo={project.GitRepo}
+          />
+        ))}
+      </Wrapper>
     </div>
+      
+
   );
+
+  }
+
 }
 
 export default Projects;

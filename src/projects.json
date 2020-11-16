@@ -1,45 +1,45 @@
 [
   {
     "id": 1,
-    "name": "Weather-Dashboard",
-    "image": "../../assets/images/image-1.PNG",
+    "title": "Weather-Dashboard",
+    "image": "https://drive.google.com/uc?export=view&id=1xnljQRjK2jM60dgG2INwlBX5W7z55Uzd",
     "Deployed": "https://haymanotyealemu.github.io/Weather-Dashboard/",
-    "Git-Repo": "https://github.com/haymanotyealemu/Weather-Dashboard.git"
+    "GitRepo": "https://github.com/haymanotyealemu/Weather-Dashboard.git"
   },
   {
     "id": 2,
-    "name": "Project One - speech-text",
-    "image": "../../assets/images/image-2.png",
+    "title": "Project One - speech-text",
+    "image": "https://drive.google.com/uc?export=view&id=1W7NWmiMLJP8yOhlwtFBfotZSsa9NVGr5",
     "Deployed": "https://johannsp.github.io/CWRUBC-Project01/",
-    "Git-Repo": "https://github.com/haymanotyealemu/CWRUBC-Project01.git"
+    "GitRepo": "https://github.com/haymanotyealemu/CWRUBC-Project01.git"
   },
   {
     "id": 3,
-    "name": "Project Two - Build & Flex!",
+    "title": "Project Two - Build & Flex!",
     "image": "https://drive.google.com/uc?export=view&id=1fTN2U3Ekl9wSudEKUzAFqHVSW3VjnzWk",
     "Deployed": "https://projecttwo-cwru.herokuapp.com/",
-    "Git-Repo": "https://github.com/haymanotyealemu/ProjectTwo.git"
+    "GitRepo": "https://github.com/haymanotyealemu/ProjectTwo.git"
   },
   {
     "id": 4,
-    "name": "Eat Da Burger!",
+    "title": "Eat Da Burger!",
     "image": "https://drive.google.com/uc?export=view&id=1Q6xjv8ak_wvkw4yB4PJa8NaMHfXLZEvE",
     "Deployed": "https://young-retreat-31053.herokuapp.com/",
-    "Git-Repo": "https://github.com/haymanotyealemu/Burger.git"
+    "GitRepo": "https://github.com/haymanotyealemu/Burger.git"
   },
   {
     "id": 5,
-    "name": "Code Quiz",
-    "image": "../../assets/images/code-quiz.PNG",
+    "title": "Code Quiz",
+    "image": "https://drive.google.com/uc?export=view&id=1fJLCUSHwcMgdO6zN3wjZee34S6POXUQx",
     "Deployed": "https://haymanotyealemu.github.io/Code-Quiz/",
-    "Git-Repo": "https://github.com/haymanotyealemu/Code-Quiz.git"
+    "GitRepo": "https://github.com/haymanotyealemu/Code-Quiz.git"
   },
   {
     "id": 6,
-    "name": "Work-day-Scheduler",
-    "image": "../../assets/images/work-scheduler.PNG",
-    "Deployed": "https://haymanotyealemu.github.io/Work-day-Scheduler/",
-    "Git-Repo": "https://github.com/haymanotyealemu/Work-day-Scheduler.git"
+    "title": "Ask-Away",
+    "image": "https://drive.google.com/uc?export=view&id=1D-zJ0fn823bL5d02gic7iM6x2ybjd8eL",
+    "Deployed": "https://whispering-depths-80857.herokuapp.com/",
+    "GitRepo": "https://github.com/haymanotyealemu/Ask-Away.git"
   }
   
 ]

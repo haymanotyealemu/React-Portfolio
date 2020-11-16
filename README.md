@@ -1,5 +1,5 @@
 # React Portfolio
-![MadeBy@](https://img.shields.io/badge/License-haymanot-brightgreen.svg)
+![MadeBy@](https://img.shields.io/badge/MadeBy@-haymanot-brightgreen.svg)
 ![License](https://img.shields.io/badge/License-none-blue.svg)
 
 ## Description
