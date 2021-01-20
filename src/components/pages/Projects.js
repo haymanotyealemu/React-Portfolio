@@ -11,7 +11,7 @@ class Projects extends Component  {
   render (){
     return(
       <div className="main">
-        <h2 className="text-center">Projects</h2> 
+        <h2 className="text-center pt-2">Projects</h2> 
         <hr/>     
         <Wrapper>
         {this.state.projects.map(project => (
