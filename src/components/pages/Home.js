@@ -30,7 +30,7 @@ function Home(){
                 <hr/>
                 <p className="card-text">Email:<Link to="#">haymanotalemu21@gmail.com</Link></p>
                 <hr/>
-                <p className="card-text">Phone:<i classname="far fa-phone-square-alt fa-2x"></i>+1 614-927-94-99</p>
+                <p className="card-text">Phone:<i classname="far fa-phone-square-alt fa-2x"></i>+1 614-926-76-68</p>
               </div>
             </Col>
             <Col size="md-3"></Col>
