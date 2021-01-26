@@ -18,14 +18,14 @@ function Home(){
               <img src="https://drive.google.com/uc?export=view&id=1s-RFiotblylLkNjFTaHScHiPw9oHqOdq" alt=""className="card-img-top rounded mx-auto thumbnail  d-block" style={{width:250, height:250}}></img>
               <div className="card-body text-center">
                 <h5 className="card-title">Welcome!</h5>
-                <p className="card-text">Hi, My name is Haymanot Wolde, I am a full stack web developer certified from Case Western Reserve University Coding Bootcamp Cleveland, Ohio! I have a Bsc in Construction And Technology Management from Addis Ababa University, Ethiopia.</p>
+                <p className="card-text">Hi, My name is Haymanot Wolde, I am a Full stack web developer with four plus years of hands-on experience in design and implementing modern web applications. Certified in an intensive training program focused on gaining technical programming skills in HTML5, CSS, JavaScript, jQuery, Bootstrap, Node.js, Web- APIs, MySQL, MongoDB, Express.js, & React and Redux.</p>
                 <br/>
                 <p className="card-text">
-                I have a hands on skills in JavaScript, Express.js, Node.js, MySQL, MongoDB, React.js, Handlebars, CSS, HTML5, Bootstrap and Bulma Frameworks. You can find my contact details here:
+                I have strong analytical, web content management, collaborative, detail-focus and fast learning skills. You can find my contact details here:
                 </p>
                 <p className="card-text">GitHub:<Link to="https://github.com/haymanotyealemu"><i className="fab fa-github fa-2x"></i></Link></p>
                 <hr/>
-                <p className="card-text">LinkedIn:<Link to="https://www.linkedin.com/in/haymanot-wolde-4ab3771a9/"><i className="fab fa-linkedin fa-2x"></i></Link></p>
+                <p className="card-text">LinkedIn:<Link to="https://www.linkedin.com/in/haymanot-w-482b021ab/"><i className="fab fa-linkedin fa-2x"></i></Link></p>
 
                 <hr/>
                 <p className="card-text">Email:<Link to="#">haymanotalemu21@gmail.com</Link></p>
