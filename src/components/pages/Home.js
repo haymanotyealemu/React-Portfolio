@@ -23,9 +23,9 @@ function Home(){
                 <p className="card-text">
                 I have strong analytical, web content management, collaborative, detail-focus and fast learning skills. You can find my contact details here:
                 </p>
-                <p className="card-text">GitHub:<Link to="https://github.com/haymanotyealemu"><i className="fab fa-github fa-2x"></i></Link></p>
+                <p className="card-text">GitHub:<a href="https://github.com/haymanotyealemu"><i className="fab fa-github fa-2x"></i></a></p>
                 <hr/>
-                <p className="card-text">LinkedIn:<Link to="https://www.linkedin.com/in/haymanot-w-482b021ab/"><i className="fab fa-linkedin fa-2x"></i></Link></p>
+                <p className="card-text">LinkedIn:<a href="https://www.linkedin.com/in/haymanot-w-482b021ab/"><i className="fab fa-linkedin fa-2x"></i></a></p>
 
                 <hr/>
                 <p className="card-text">Email:<Link to="#">haymanotalemu21@gmail.com</Link></p>
